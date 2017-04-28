@@ -1,0 +1,24 @@
+{
+  "name": "whew",
+  "version": "1.0.0",
+  "description": "A simple, pretty, and lightweight Node.JS testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/coreTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuturisticCake/whew.git"
+  },
+  "keywords": [
+    "test",
+    "async",
+    "whew"
+  ],
+  "author": "Ethan Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FuturisticCake/whew/issues"
+  },
+  "homepage": "https://github.com/FuturisticCake/whew#readme"
+}
