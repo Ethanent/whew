@@ -6,6 +6,8 @@
 
 ---
 
+![whew demonstration](http://i.imgur.com/0kSDW3B.png)
+
 ## Installation
 
 ```
