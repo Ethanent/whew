@@ -1,5 +1,3 @@
-// © 2017 Ethan Davis
-
 const resultUI = require("./resultUI.js");
 
 module.exports = (testData) => {

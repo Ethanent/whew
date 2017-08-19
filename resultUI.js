@@ -1,5 +1,3 @@
-// © 2017 Ethan Davis
-
 module.exports = (tests) => {
 	process.stdout.write("\x1B[2J\x1B[0f\u001b[0;0H");
 	console.log("\x1b[34mCompleted " + tests.length + " tests.\x1b[0m\n");
@@ -31,5 +29,10 @@ module.exports = (tests) => {
 
 	console.log("\n");
 
-	process.exit(0);
+	if (totals.fail > 0) {
+		process.exit(1);
+	}
+	else {
+		process.exit(0);
+	}
 };

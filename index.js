@@ -1,5 +1,3 @@
-// © 2017 Ethan Davis
-
 const runTests = require("./runTests.js");
 
 var tests = [];
