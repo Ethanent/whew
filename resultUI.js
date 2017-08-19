@@ -25,9 +25,11 @@ module.exports = (tests) => {
 			console.log("\x1b[32m✓ \x1b[34m" + tests[i].name + " \x1b[32mpassed \x1b[34min " + tests[i].result.timeTaken + "ms." + (tests[i].result.info ? "\t\x1b[35m" + tests[i].result.info + "\x1b[0m" : "\x1b[0m"));
 		}
 		else {
-			console.log("\x1b[31m✗ \x1b[34m" + tests[i].name + " \x1b[31mfailed \x1b[34min " + tests[i].result.timeTaken + "ms." + (tests[i].result.info ? "\t\x1b[35m" + tests[i].result.info + "\x1b[0m" : "\x1b[0m"));
+			console.error("\x1b[31m✗ \x1b[34m" + tests[i].name + " \x1b[31mfailed \x1b[34min " + tests[i].result.timeTaken + "ms." + (tests[i].result.info ? "\t\x1b[35m" + tests[i].result.info + "\x1b[0m" : "\x1b[0m"));
 		}
 	}
 
 	console.log("\n");
+
+	process.exit(0);
 };
