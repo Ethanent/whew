@@ -89,7 +89,3 @@ module.exports = (res) => {
     res(true, "Hey, it worked!");
 };
 ```
-
-## License (MIT)
-
-This testing library is MIT licensed, of course. See LICENSE for more information (full license) if you'd like.

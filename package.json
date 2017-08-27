@@ -1,10 +1,11 @@
 {
   "name": "whew",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A simple, pretty, and lightweight Node.JS testing framework",
   "main": "index.js",
   "scripts": {
-    "test": "node ./tests/coreTest.js"
+    "test": "node ./tests/coreTest.js",
+    "prepublishOnly": "npm test"
   },
   "repository": {
     "type": "git",
